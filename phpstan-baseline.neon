@@ -36,6 +36,16 @@ parameters:
 			path: tests/Functional/AppBrowser.php
 
 		-
+			message: "#^Call to static method App\\\\Tests\\\\Functional\\\\FunctionalTestCase\\:\\:assertTrue\\(\\) with true will always evaluate to true\\.$#"
+			count: 1
+			path: tests/Functional/FunctionalDummyTest.php
+
+		-
+			message: "#^Call to static method App\\\\Tests\\\\Integration\\\\IntegrationTestCase\\:\\:assertTrue\\(\\) with true will always evaluate to true\\.$#"
+			count: 1
+			path: tests/Integration/IntegrationDummyTest.php
+
+		-
 			message: "#^Method App\\\\Tests\\\\Integration\\\\IntegrationTestCase\\:\\:createKernel\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
 			count: 1
 			path: tests/Integration/IntegrationTestCase.php
@@ -46,17 +56,12 @@ parameters:
 			path: tests/Integration/IntegrationTestCase.php
 
 		-
-			message: "#^Call to static method App\\\\Tests\\\\Unit\\\\UnitTestCase\\:\\:assertInstanceOf\\(\\) with 'App\\\\\\\\Domain\\\\\\\\Identifier\\\\\\\\UrlId' and App\\\\Domain\\\\Identifier\\\\UrlId will always evaluate to true\\.$#"
-			count: 1
-			path: tests/Unit/Entity/UrlTest.php
-
-		-
 			message: "#^Call to static method App\\\\Tests\\\\Unit\\\\UnitTestCase\\:\\:assertSame\\(\\) with 'admin_dashboard' and 'admin_dashboard' will always evaluate to true\\.$#"
 			count: 1
 			path: tests/Unit/Routing/AdminRoutesTest.php
 
 		-
-			message: "#^Call to static method App\\\\Tests\\\\Unit\\\\UnitTestCase\\:\\:assertSame\\(\\) with 'get_short_url' and 'get_short_url' will always evaluate to true\\.$#"
+			message: "#^Access to undefined constant App\\\\Routing\\\\Routes\\:\\:GET_SHORT_URL\\.$#"
 			count: 1
 			path: tests/Unit/Routing/RoutesTest.php
 

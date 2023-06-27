@@ -23,14 +23,12 @@ final class DashboardController extends AbstractDashboardController
     public function configureDashboard(): Dashboard
     {
         return Dashboard::new()
-            ->setTitle('Lama')
+            ->setTitle('project-name')
             ->renderContentMaximized();
     }
 
     public function configureMenuItems(): iterable
     {
         yield MenuItem::linkToDashboard('Dashboard', 'fas fa-home');
-
-        yield MenuItem::linkToCrud('URLs', 'fas fa-link', Url::class);
     }
 }

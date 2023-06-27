@@ -15,6 +15,9 @@ return static function (Configuration $config): Configuration {
         ->addNamedFilter(NamedFilter::fromString('symfony/flex'))
         ->addNamedFilter(NamedFilter::fromString('symfony/var-dumper'))
         ->addNamedFilter(NamedFilter::fromString('symfony/expression-language'))
+        ->addNamedFilter(NamedFilter::fromString('oskarstark/trimmed-non-empty-string'))
+        ->addNamedFilter(NamedFilter::fromString('oskarstark/symfony-http-responder'))
+        ->addNamedFilter(NamedFilter::fromString('thecodingmachine/safe'))
         ->addNamedFilter(NamedFilter::fromString('webmozart/assert'))
         ->setAdditionalFilesFor('datana-gmbh/project-name', [
             __FILE__,

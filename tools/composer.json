@@ -1,6 +1,6 @@
 {
     "name": "datana-gmbh/project-name-development-tools",
-    "description": "Lama development tools",
+    "description": "Development tools",
     "license": "proprietary",
     "type": "project",
     "require": {

@@ -303,13 +303,14 @@ jobs:
                 name: "Execute Doctrine migrations"
                 run: "bin/console doctrine:migrations:migrate --no-interaction"
 
-            -
-                name: "Show Doctrine mapping information"
-                run: "bin/console doctrine:mapping:info --em=${{ env.ENTITY_MANAGER_NAME_DEFAULT }}"
-
-            -
-                name: "Validate Doctrine mapping"
-                run: "bin/console doctrine:schema:validate --em=${{ env.ENTITY_MANAGER_NAME_DEFAULT }}"
+# MUST BE ENABLED AGAIN IF WE HAVE A FIRST ENTITY!
+#            -
+#                name: "Show Doctrine mapping information"
+#                run: "bin/console doctrine:mapping:info --em=${{ env.ENTITY_MANAGER_NAME_DEFAULT }}"
+#
+#            -
+#                name: "Validate Doctrine mapping"
+#                run: "bin/console doctrine:schema:validate --em=${{ env.ENTITY_MANAGER_NAME_DEFAULT }}"
 
     tests:
         name: "Tests"

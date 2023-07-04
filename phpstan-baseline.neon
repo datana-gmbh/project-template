@@ -61,7 +61,7 @@ parameters:
 			path: tests/Unit/Routing/AdminRoutesTest.php
 
 		-
-			message: "#^Access to undefined constant App\\\\Routing\\\\Routes\\:\\:GET_SHORT_URL\\.$#"
+			message: "#^Call to static method App\\\\Tests\\\\Unit\\\\UnitTestCase\\:\\:assertSame\\(\\) with 'index' and 'index' will always evaluate to true\\.$#"
 			count: 1
 			path: tests/Unit/Routing/RoutesTest.php
 

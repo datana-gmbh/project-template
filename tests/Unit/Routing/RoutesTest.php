@@ -15,7 +15,7 @@ final class RoutesTest extends UnitTestCase
      */
     public function constants(): void
     {
-        self::assertSame('get_short_url', Routes::GET_SHORT_URL);
+        self::assertSame('index', Routes::INDEX);
     }
 
     /**

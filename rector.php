@@ -12,7 +12,8 @@ use Rector\PHPUnit\Set\PHPUnitSetList;
 use Rector\Set\ValueObject\LevelSetList;
 use Rector\Symfony\Set\SymfonyLevelSetList;
 use Rector\TypeDeclaration\Rector\ClassMethod\ReturnNeverTypeRector;
-use Rector\PHPUnit\Rector\Class_\PreferPHPUnitThisCallRector;
+use Rector\PHPUnit\CodeQuality\Rector\Class_\PreferPHPUnitThisCallRector;
+use Rector\PHPUnit\CodeQuality\Rector\ClassMethod\ReplaceTestAnnotationWithPrefixedFunctionRector;
 
 return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->parallel();
@@ -43,6 +44,7 @@ return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->skip([
         ArraySpreadInsteadOfArrayMergeRector::class,
         PreferPHPUnitThisCallRector::class,
+        ReplaceTestAnnotationWithPrefixedFunctionRector::class,
 
         // @see https://github.com/datana-gmbh/project-name/pull/2355#discussion_r1023816626
         ReturnNeverTypeRector::class => [

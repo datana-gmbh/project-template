@@ -45,7 +45,6 @@ return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->skip([
         ArraySpreadInsteadOfArrayMergeRector::class,
         PreferPHPUnitThisCallRector::class,
-        \Rector\PHPUnit\Rector\Class_\PreferPHPUnitSelfCallRector::class,
         ReplaceTestAnnotationWithPrefixedFunctionRector::class,
 
         // @see https://github.com/datana-gmbh/project-name/pull/2355#discussion_r1023816626

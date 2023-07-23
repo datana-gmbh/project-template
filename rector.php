@@ -14,6 +14,7 @@ use Rector\Symfony\Set\SymfonyLevelSetList;
 use Rector\TypeDeclaration\Rector\ClassMethod\ReturnNeverTypeRector;
 use Rector\PHPUnit\CodeQuality\Rector\Class_\PreferPHPUnitThisCallRector;
 use Rector\PHPUnit\CodeQuality\Rector\ClassMethod\ReplaceTestAnnotationWithPrefixedFunctionRector;
+use Rector\PHPUnit\Rector\Class_\PreferPHPUnitSelfCallRector;
 
 return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->parallel();
@@ -44,6 +45,7 @@ return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->skip([
         ArraySpreadInsteadOfArrayMergeRector::class,
         PreferPHPUnitThisCallRector::class,
+        \Rector\PHPUnit\Rector\Class_\PreferPHPUnitSelfCallRector::class,
         ReplaceTestAnnotationWithPrefixedFunctionRector::class,
 
         // @see https://github.com/datana-gmbh/project-name/pull/2355#discussion_r1023816626
@@ -66,6 +68,7 @@ return static function (RectorConfig $rectorConfig): void {
      * @see https://github.com/rectorphp/rector/blob/master/docs/rector_rules_overview.md#annotationtoattributerector
      */
     $rectorConfig->rule(AnnotationToAttributeRector::class);
+    $rectorConfig->rule(PreferPHPUnitSelfCallRector::class);
 
     $rectorConfig->import('vendor/fakerphp/faker/rector-migrate.php');
     $rectorConfig->import('vendor/thecodingmachine/safe/rector-migrate.php');

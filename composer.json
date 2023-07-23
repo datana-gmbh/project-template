@@ -30,7 +30,7 @@
         "symfony/doctrine-bridge": "^6.3",
         "symfony/dotenv": "^6.3",
         "symfony/event-dispatcher": "^6.3",
-        "symfony/expression-language": "6.3.*",
+        "symfony/expression-language": "^6.3",
         "symfony/finder": "^6.3",
         "symfony/flex": "^2.2.5",
         "symfony/framework-bundle": "^6.3",

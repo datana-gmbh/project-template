@@ -47,17 +47,21 @@ $config = PhpCsFixer\Config\Factory::fromRuleSet(new PhpCsFixer\Config\RuleSet\P
     'php_unit_test_annotation' => [
         'style' => 'annotation',
     ],
-    'php_unit_test_class_requires_covers' => false,'return_to_yield_from' => false,
+    'php_unit_test_class_requires_covers' => false,
+    'return_to_yield_from' => false,
 ]);
 
 $config->getFinder()
+    ->append([
+        __DIR__.'/.php-cs-fixer.dist.php',
+        __DIR__.'/rector.php',
+    ])
     ->in('build')
     ->in('migrations')
     ->in('src')
     ->in('tests')
     ->in('tools');
-;
 
-$config->setCacheFile(__DIR__ . '/.build/php-cs-fixer/.php-cs-fixer.cache');
+$config->setCacheFile(__DIR__.'/.build/php-cs-fixer/.php-cs-fixer.cache');
 
 return $config;

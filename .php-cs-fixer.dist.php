@@ -47,7 +47,7 @@ $config = PhpCsFixer\Config\Factory::fromRuleSet(new PhpCsFixer\Config\RuleSet\P
     'php_unit_test_annotation' => [
         'style' => 'annotation',
     ],
-    'php_unit_test_class_requires_covers' => false,
+    'php_unit_test_class_requires_covers' => false,'return_to_yield_from' => false,
 ]);
 
 $config->getFinder()

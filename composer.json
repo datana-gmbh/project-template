@@ -59,7 +59,7 @@
         "datana-gmbh/doctrine-type-testcases": "^1.1",
         "doctrine/doctrine-fixtures-bundle": "^3.4.2",
         "ergebnis/composer-normalize": "^2.30.2",
-        "ergebnis/php-cs-fixer-config": "^5.5.0",
+        "ergebnis/php-cs-fixer-config": "^5.13.0",
         "ergebnis/test-util": "^1.6",
         "fakerphp/faker": "^1.21",
         "icanhazstring/composer-unused": "^0.8.7",

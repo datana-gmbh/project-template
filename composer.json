@@ -103,8 +103,8 @@
         "symfony/polyfill-php82": "*"
     },
     "conflict": {
-        "symfony/symfony": "*",
-        "rector/rector": ">=0.17.13"
+        "rector/rector": ">=0.17.13",
+        "symfony/symfony": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

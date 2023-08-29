@@ -8,9 +8,6 @@ security:
         api_users:
             memory:
                 users:
-                    mandantencockpit:
-                        password: '%env(MANDANTENCOCKPIT_USER_PASSWORD)%'
-                        roles: [ROLE_USER]
                     admin:
                         password: 'kjsdhfdfhg38734hjasdhad374'
                         roles: [ROLE_ADMIN]

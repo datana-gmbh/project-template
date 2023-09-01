@@ -62,7 +62,7 @@
         "ergebnis/php-cs-fixer-config": "^5.13.0",
         "ergebnis/test-util": "^1.6",
         "fakerphp/faker": "^1.21",
-        "icanhazstring/composer-unused": "^0.8.7",
+        "icanhazstring/composer-unused": "^0.8.10",
         "infection/infection": "^0.26.19",
         "mtdowling/jmespath.php": "^2.6.1",
         "phpstan/extension-installer": "^1.2",

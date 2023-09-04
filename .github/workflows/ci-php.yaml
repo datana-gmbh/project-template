@@ -35,7 +35,7 @@ jobs:
             # see https://github.com/rectorphp/rector/commit/d395e1c28b8e6a56711dcc2e10490a82965850e4
             -   if: github.actor != 'dependabot[bot]'
                 name: "Checkout"
-                uses: "actions/checkout@v3"
+                uses: "actions/checkout@v4"
                 with:
                     ref: "${{ github.head_ref }}"
                     # Must be used to be able to commit changed files
@@ -44,7 +44,7 @@ jobs:
             # in forks, the token is not available - so we cannot use it
             -   if: github.actor == 'dependabot[bot]'
                 name: "Checkout"
-                uses: "actions/checkout@v3"
+                uses: "actions/checkout@v4"
                 with:
                     ref: "${{ github.head_ref }}"
 
@@ -126,7 +126,7 @@ jobs:
             # see https://github.com/rectorphp/rector/commit/d395e1c28b8e6a56711dcc2e10490a82965850e4
             -   if: github.actor != 'dependabot[bot]'
                 name: "Checkout"
-                uses: "actions/checkout@v3"
+                uses: "actions/checkout@v4"
                 with:
                     ref: "${{ github.head_ref }}"
                     # Must be used to be able to commit changed files
@@ -135,7 +135,7 @@ jobs:
             # in forks, the token is not available - so we cannot use it
             -   if: github.actor == 'dependabot[bot]'
                 name: "Checkout"
-                uses: "actions/checkout@v3"
+                uses: "actions/checkout@v4"
                 with:
                     ref: "${{ github.head_ref }}"
 
@@ -181,7 +181,7 @@ jobs:
         steps:
             -
                 name: "Checkout"
-                uses: "actions/checkout@v3"
+                uses: "actions/checkout@v4"
 
             -
                 name: "Install PHP with extensions"
@@ -229,7 +229,7 @@ jobs:
         steps:
             -
                 name: "Checkout"
-                uses: "actions/checkout@v3"
+                uses: "actions/checkout@v4"
 
             -
                 name: "Install PHP with extensions"
@@ -280,7 +280,7 @@ jobs:
         steps:
             -
                 name: "Checkout"
-                uses: "actions/checkout@v3"
+                uses: "actions/checkout@v4"
 
             -
                 name: "Install PHP with extensions"
@@ -343,7 +343,7 @@ jobs:
             # see https://github.com/rectorphp/rector/commit/d395e1c28b8e6a56711dcc2e10490a82965850e4
             -   if: github.actor != 'dependabot[bot]'
                 name: "Checkout"
-                uses: "actions/checkout@v3"
+                uses: "actions/checkout@v4"
                 with:
                     ref: "${{ github.head_ref }}"
                     # Must be used to be able to commit changed files
@@ -352,7 +352,7 @@ jobs:
             # in forks, the token is not available - so we cannot use it
             -   if: github.actor == 'dependabot[bot]'
                 name: "Checkout"
-                uses: "actions/checkout@v3"
+                uses: "actions/checkout@v4"
                 with:
                     ref: "${{ github.head_ref }}"
 

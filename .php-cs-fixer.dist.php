@@ -55,6 +55,7 @@ $config->getFinder()
     ->append([
         __DIR__.'/.php-cs-fixer.dist.php',
         __DIR__.'/rector.php',
+        __DIR__.'/composer-unused.php',
     ])
     ->in('build')
     ->in('migrations')

@@ -35,7 +35,7 @@ return static function (RectorConfig $rectorConfig): void {
         PHPUnitSetList::PHPUNIT_91,
         PHPUnitSetList::PHPUNIT_CODE_QUALITY,
         PHPUnitSetList::PHPUNIT_EXCEPTION,
-        SymfonyLevelSetList::UP_TO_SYMFONY_62,
+        SymfonyLevelSetList::UP_TO_SYMFONY_63,
         DoctrineSetList::DOCTRINE_ORM_29,
         DoctrineSetList::DOCTRINE_DBAL_30,
         DoctrineSetList::DOCTRINE_CODE_QUALITY,

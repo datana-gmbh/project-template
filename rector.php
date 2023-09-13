@@ -12,6 +12,7 @@ use Rector\PHPUnit\CodeQuality\Rector\ClassMethod\ReplaceTestAnnotationWithPrefi
 use Rector\PHPUnit\Rector\Class_\PreferPHPUnitSelfCallRector;
 use Rector\PHPUnit\Set\PHPUnitSetList;
 use Rector\Set\ValueObject\LevelSetList;
+use Rector\Set\ValueObject\SetList;
 use Rector\Symfony\Set\SymfonyLevelSetList;
 use Rector\TypeDeclaration\Rector\ClassMethod\ReturnNeverTypeRector;
 use function Safe\getcwd;
@@ -32,6 +33,7 @@ return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->phpstanConfig(getcwd().'/phpstan.neon.dist');
 
     $rectorConfig->sets([
+        SetList::PHP_82,
         LevelSetList::UP_TO_PHP_82,
         PHPUnitSetList::PHPUNIT_91,
         PHPUnitSetList::PHPUNIT_CODE_QUALITY,

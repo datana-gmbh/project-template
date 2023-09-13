@@ -1,7 +1,6 @@
 <?php
 
 declare(strict_types=1);
-
 use Rector\Config\RectorConfig;
 use Rector\Core\ValueObject\PhpVersion;
 use Rector\Doctrine\Set\DoctrineSetList;
@@ -15,10 +14,12 @@ use Rector\PHPUnit\Set\PHPUnitSetList;
 use Rector\Set\ValueObject\LevelSetList;
 use Rector\Symfony\Set\SymfonyLevelSetList;
 use Rector\TypeDeclaration\Rector\ClassMethod\ReturnNeverTypeRector;
+use function Safe\getcwd;
 
 return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->parallel();
     $rectorConfig->paths([
+        __DIR__.'/rector.php',
         __DIR__.'/src',
         __DIR__.'/tests',
         __DIR__.'/migrations',

@@ -41,6 +41,7 @@ cs: vendor ## Normalizes composer.json with ergebnis/composer-normalize and fixe
 .PHONY: dependency-analysis
 dependency-analysis: vendor ## Runs a dependency analysis with maglnet/composer-require-checker
 	symfony php tools/composer-require-checker check --config-file=$(shell pwd)/composer-require-checker.json
+	symfony php vendor/bin/composer-unused
 
 .PHONY: doctrine
 doctrine: vendor ## Runs doctrine commands to ensure we have a local test database set up

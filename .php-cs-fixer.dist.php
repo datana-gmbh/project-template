@@ -1,10 +1,10 @@
 <?php
 
 declare(strict_types=1);
+use Ergebnis\PhpCsFixer\Config\Factory;
+use Ergebnis\PhpCsFixer\Config\RuleSet\Php82;
 
-use Ergebnis\PhpCsFixer;
-
-$config = PhpCsFixer\Config\Factory::fromRuleSet(new PhpCsFixer\Config\RuleSet\Php82(''), [
+$config = Factory::fromRuleSet(new Php82(''), [
     'blank_line_before_statement' => [
         'statements' => [
             'break',

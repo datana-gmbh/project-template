@@ -20,6 +20,8 @@ use function Safe\getcwd;
 return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->parallel();
     $rectorConfig->paths([
+        __DIR__.'/.php-cs-fixer.dist.php',
+        __DIR__.'/composer-unused.php',
         __DIR__.'/rector.php',
         __DIR__.'/src',
         __DIR__.'/tests',

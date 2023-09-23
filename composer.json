@@ -12,7 +12,7 @@
         "datana-gmbh/doctrine-postgres-public-schema-listener": "^1.2.0",
         "datana-gmbh/logz-io-handler": "^1.5",
         "doctrine/collections": "^1.8",
-        "doctrine/dbal": "^3.6.6",
+        "doctrine/dbal": "^3.6.7",
         "doctrine/doctrine-bundle": "^2.10.2",
         "doctrine/doctrine-migrations-bundle": "^3.2.4",
         "doctrine/event-manager": "^1.2",

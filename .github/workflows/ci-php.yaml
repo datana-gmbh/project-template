@@ -77,7 +77,7 @@ jobs:
 
             -
                 name: "Commit files normalized with ergebnis/composer-normalize"
-                uses: "stefanzweifel/git-auto-commit-action@v4.16.0"
+                uses: "stefanzweifel/git-auto-commit-action@v5.0.0"
                 with:
                     branch: "${{ github.head_ref }}"
                     commit_author: "${{ env.DATANA_BOT_NAME }} <${{ env.DATANA_BOT_EMAIL }}>"
@@ -103,7 +103,7 @@ jobs:
 
             -
                 name: "Commit files fixed with friendsofphp/php-cs-fixer"
-                uses: "stefanzweifel/git-auto-commit-action@v4.16.0"
+                uses: "stefanzweifel/git-auto-commit-action@v5.0.0"
                 with:
                     branch: "${{ github.head_ref }}"
                     commit_author: "${{ env.DATANA_BOT_NAME }} <${{ env.DATANA_BOT_EMAIL }}>"
@@ -160,7 +160,7 @@ jobs:
 
             -
                 name: "Commit files refactored with rector/rector"
-                uses: "stefanzweifel/git-auto-commit-action@v4.16.0"
+                uses: "stefanzweifel/git-auto-commit-action@v5.0.0"
                 with:
                     branch: "${{ github.head_ref }}"
                     commit_author: "${{ env.DATANA_BOT_NAME }} <${{ env.DATANA_BOT_EMAIL }}>"

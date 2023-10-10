@@ -22,11 +22,11 @@
     },
     "config": {
         "allow-plugins": {
-            "ergebnis/composer-normalize": true,
-            "phpstan/extension-installer": true,
             "endroid/installer": true,
-            "symfony/flex": true,
-            "infection/extension-installer": true
+            "ergebnis/composer-normalize": true,
+            "infection/extension-installer": true,
+            "phpstan/extension-installer": true,
+            "symfony/flex": true
         },
         "preferred-install": {
             "*": "dist"

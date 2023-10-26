@@ -12346,16 +12346,16 @@
         },
         {
             "name": "vincentlanglet/twig-cs-fixer",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/VincentLanglet/Twig-CS-Fixer.git",
-                "reference": "195c7595f08514f0d32faeab0752100b71732a15"
+                "reference": "e5be674a439e0dcfa2a4bd4ce83ee44e20867310"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VincentLanglet/Twig-CS-Fixer/zipball/195c7595f08514f0d32faeab0752100b71732a15",
-                "reference": "195c7595f08514f0d32faeab0752100b71732a15",
+                "url": "https://api.github.com/repos/VincentLanglet/Twig-CS-Fixer/zipball/e5be674a439e0dcfa2a4bd4ce83ee44e20867310",
+                "reference": "e5be674a439e0dcfa2a4bd4ce83ee44e20867310",
                 "shasum": ""
             },
             "require": {
@@ -12387,7 +12387,7 @@
                 "symfony/filesystem": "^5.4 || ^6.0",
                 "symfony/process": "^5.4 || ^6.0",
                 "symfony/twig-bridge": "^5.4 || ^6.0",
-                "symfony/ux-twig-component": "^2.8.0",
+                "symfony/ux-twig-component": "^2.2.0",
                 "twig/cache-extra": "^3.2",
                 "vimeo/psalm": "^5.2.0"
             },
@@ -12413,7 +12413,7 @@
             "homepage": "https://github.com/VincentLanglet/Twig-CS-Fixer",
             "support": {
                 "issues": "https://github.com/VincentLanglet/Twig-CS-Fixer/issues",
-                "source": "https://github.com/VincentLanglet/Twig-CS-Fixer/tree/1.5.0"
+                "source": "https://github.com/VincentLanglet/Twig-CS-Fixer/tree/1.6.0"
             },
             "funding": [
                 {
@@ -12421,7 +12421,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-12T20:45:43+00:00"
+            "time": "2023-10-25T18:51:07+00:00"
         },
         {
             "name": "webmozart/glob",
@@ -12826,5 +12826,5 @@
         "ext-pdo_pgsql": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }

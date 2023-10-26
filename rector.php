@@ -1,7 +1,6 @@
 <?php
 
 declare(strict_types=1);
-use function Safe\getcwd;
 use Rector\Config\RectorConfig;
 use Rector\Core\ValueObject\PhpVersion;
 use Rector\Doctrine\Set\DoctrineSetList;
@@ -16,6 +15,7 @@ use Rector\Set\ValueObject\LevelSetList;
 use Rector\Set\ValueObject\SetList;
 use Rector\Symfony\Set\SymfonyLevelSetList;
 use Rector\TypeDeclaration\Rector\ClassMethod\ReturnNeverTypeRector;
+use function Safe\getcwd;
 
 return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->parallel();

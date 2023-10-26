@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+use function Safe\getcwd;
 use Rector\Config\RectorConfig;
 use Rector\Core\ValueObject\PhpVersion;
 use Rector\Doctrine\Set\DoctrineSetList;
@@ -32,6 +33,7 @@ return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->importNames();
     $rectorConfig->importShortClasses(false);
     $rectorConfig->phpstanConfigs([
+        getcwd().'/phpstan.neon.dist',
         'vendor/phpstan/phpstan-doctrine/extension.neon',
         'vendor/phpstan/phpstan-phpunit/extension.neon',
         'vendor/phpstan/phpstan-symfony/extension.neon',

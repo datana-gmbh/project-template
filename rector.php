@@ -15,7 +15,6 @@ use Rector\Set\ValueObject\LevelSetList;
 use Rector\Set\ValueObject\SetList;
 use Rector\Symfony\Set\SymfonyLevelSetList;
 use Rector\TypeDeclaration\Rector\ClassMethod\ReturnNeverTypeRector;
-use function Safe\getcwd;
 
 return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->parallel();
@@ -32,7 +31,12 @@ return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->phpVersion(PhpVersion::PHP_82);
     $rectorConfig->importNames();
     $rectorConfig->importShortClasses(false);
-    $rectorConfig->phpstanConfig(getcwd().'/phpstan.neon.dist');
+    $rectorConfig->phpstanConfigs([
+        'vendor/phpstan/phpstan-doctrine/extension.neon',
+        'vendor/phpstan/phpstan-phpunit/extension.neon',
+        'vendor/phpstan/phpstan-symfony/extension.neon',
+        'vendor/phpstan/phpstan-webmozart-assert/extension.neon',
+    ]);
 
     $rectorConfig->sets([
         SetList::PHP_82,

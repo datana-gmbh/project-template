@@ -73,6 +73,10 @@ refactoring: vendor ## Refactor the code using rector/rector
 	symfony php bin/console cache:warmup --env=dev
 	symfony php vendor/bin/rector process --config rector.php
 
+.PHONY: tests-changed
+tests-changed: vendor doctrine
+	symfony php vendor/bin/phpunit --configuration=phpunit.xml.dist $(shell git diff HEAD --name-only | grep Test.php)
+
 .PHONY: tests
 tests: vendor doctrine tests-auto-review tests-unit tests-integration tests-functional tests-acceptance ## Runs auto-review, unit, functional, integration, and acceptance tests with phpunit/phpunit (and symfony/panther)
 

@@ -1,8 +1,8 @@
 <?php
 
 declare(strict_types=1);
-use Ergebnis\PhpCsFixer\Config\Rules;
 use Ergebnis\PhpCsFixer\Config\Factory;
+use Ergebnis\PhpCsFixer\Config\Rules;
 use Ergebnis\PhpCsFixer\Config\RuleSet\Php82;
 
 $ruleSet = Php82::create()->withRules(Rules::fromArray([

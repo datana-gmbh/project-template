@@ -4,7 +4,7 @@ declare(strict_types=1);
 use Ergebnis\PhpCsFixer\Config\Factory;
 use Ergebnis\PhpCsFixer\Config\RuleSet\Php82;
 
-$config = Factory::fromRuleSet(new Php82(''), [
+$ruleSet = Php82::create()->withRules(\Ergebnis\PhpCsFixer\Config\Rules::fromArray([
     'blank_line_before_statement' => [
         'statements' => [
             'break',
@@ -49,7 +49,20 @@ $config = Factory::fromRuleSet(new Php82(''), [
     ],
     'php_unit_test_class_requires_covers' => false,
     'return_to_yield_from' => false,
-]);
+    'PhpCsFixerCustomFixers/phpdoc_array_style' => false,
+    'attribute_empty_parentheses' => false,
+    'final_public_method_for_abstract_class' => false,
+    'class_attributes_separation' => [
+        'elements' => [
+            'const' => 'only_if_meta',
+            'property' => 'only_if_meta',
+            'trait_import' => 'none',
+            'case' => 'none',
+        ],
+    ],
+]));
+
+$config = Factory::fromRuleSet($ruleSet);
 
 $config->getFinder()
     ->append([

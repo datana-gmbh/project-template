@@ -25,10 +25,10 @@
 
 ## MacOS PHP Setup
 
-### PHP 8.2
+### PHP 8.3
 
 ```shell
-$ brew install php@8.2
+$ brew install php@8.3
 ```
 
 ### PHPStan

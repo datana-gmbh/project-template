@@ -55,7 +55,7 @@
         "webmozart/assert": "^1.11"
     },
     "require-dev": {
-        "dama/doctrine-test-bundle": "^7.3.0",
+        "dama/doctrine-test-bundle": "^8.0",
         "datana-gmbh/doctrine-type-testcases": "^1.2",
         "doctrine/doctrine-fixtures-bundle": "^3.5.1",
         "ergebnis/composer-normalize": "^2.39.0",

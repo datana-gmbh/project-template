@@ -1954,21 +1954,21 @@
         },
         {
             "name": "oskarstark/trimmed-non-empty-string",
-            "version": "1.0.0",
+            "version": "1.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OskarStark/trimmed-non-empty-string.git",
-                "reference": "c7a9f41895b34ae86cf3cace2f3b9ee6d65eb887"
+                "reference": "386739c4cbcdf87122e9b34bbab8b7f3ab1bed8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OskarStark/trimmed-non-empty-string/zipball/c7a9f41895b34ae86cf3cace2f3b9ee6d65eb887",
-                "reference": "c7a9f41895b34ae86cf3cace2f3b9ee6d65eb887",
+                "url": "https://api.github.com/repos/OskarStark/trimmed-non-empty-string/zipball/386739c4cbcdf87122e9b34bbab8b7f3ab1bed8c",
+                "reference": "386739c4cbcdf87122e9b34bbab8b7f3ab1bed8c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4",
-                "symfony/string": "^5.0 || ^6.0",
+                "symfony/string": "^5.0 || ^6.0 || ^7.0",
                 "webmozart/assert": "^1.0"
             },
             "require-dev": {
@@ -1999,9 +1999,9 @@
             ],
             "support": {
                 "issues": "https://github.com/OskarStark/trimmed-non-empty-string/issues",
-                "source": "https://github.com/OskarStark/trimmed-non-empty-string/tree/1.0.0"
+                "source": "https://github.com/OskarStark/trimmed-non-empty-string/tree/1.11.1"
             },
-            "time": "2022-04-11T05:08:00+00:00"
+            "time": "2023-12-01T11:02:53+00:00"
         },
         {
             "name": "psr/cache",
@@ -5683,20 +5683,20 @@
         },
         {
             "name": "symfony/string",
-            "version": "v6.4.0",
+            "version": "v7.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "b45fcf399ea9c3af543a92edf7172ba21174d809"
+                "reference": "92bd2bfbba476d4a1838e5e12168bef2fd1e6620"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/b45fcf399ea9c3af543a92edf7172ba21174d809",
-                "reference": "b45fcf399ea9c3af543a92edf7172ba21174d809",
+                "url": "https://api.github.com/repos/symfony/string/zipball/92bd2bfbba476d4a1838e5e12168bef2fd1e6620",
+                "reference": "92bd2bfbba476d4a1838e5e12168bef2fd1e6620",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1",
+                "php": ">=8.2",
                 "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-intl-grapheme": "~1.0",
                 "symfony/polyfill-intl-normalizer": "~1.0",
@@ -5706,11 +5706,11 @@
                 "symfony/translation-contracts": "<2.5"
             },
             "require-dev": {
-                "symfony/error-handler": "^5.4|^6.0|^7.0",
-                "symfony/http-client": "^5.4|^6.0|^7.0",
-                "symfony/intl": "^6.2|^7.0",
+                "symfony/error-handler": "^6.4|^7.0",
+                "symfony/http-client": "^6.4|^7.0",
+                "symfony/intl": "^6.4|^7.0",
                 "symfony/translation-contracts": "^2.5|^3.0",
-                "symfony/var-exporter": "^5.4|^6.0|^7.0"
+                "symfony/var-exporter": "^6.4|^7.0"
             },
             "type": "library",
             "autoload": {
@@ -5749,7 +5749,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v6.4.0"
+                "source": "https://github.com/symfony/string/tree/v7.0.0"
             },
             "funding": [
                 {
@@ -5765,7 +5765,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-11-28T20:41:49+00:00"
+            "time": "2023-11-29T08:40:23+00:00"
         },
         {
             "name": "symfony/translation",

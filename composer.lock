@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e2dd528d81b60d8772639d068bfc43bc",
+    "content-hash": "657ffae74fb4ae7402a31736a2ed3610",
     "packages": [
         {
             "name": "api-platform/core",
@@ -221,16 +221,16 @@
         },
         {
             "name": "datana-gmbh/logz-io-handler",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/datana-gmbh/logz-io-handler.git",
-                "reference": "2a68bef3051c7fb2b1a7c65d3521b55a43945d18"
+                "reference": "7b9c398aebb762a26fe4c871558ff90efcd5f0bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/datana-gmbh/logz-io-handler/zipball/2a68bef3051c7fb2b1a7c65d3521b55a43945d18",
-                "reference": "2a68bef3051c7fb2b1a7c65d3521b55a43945d18",
+                "url": "https://api.github.com/repos/datana-gmbh/logz-io-handler/zipball/7b9c398aebb762a26fe4c871558ff90efcd5f0bc",
+                "reference": "7b9c398aebb762a26fe4c871558ff90efcd5f0bc",
                 "shasum": ""
             },
             "require": {
@@ -264,9 +264,9 @@
             "description": "A pre configured handler for logz.io",
             "support": {
                 "issues": "https://github.com/datana-gmbh/logz-io-handler/issues",
-                "source": "https://github.com/datana-gmbh/logz-io-handler/tree/1.6.1"
+                "source": "https://github.com/datana-gmbh/logz-io-handler/tree/1.6.2"
             },
-            "time": "2023-12-02T21:15:55+00:00"
+            "time": "2023-12-02T21:33:06+00:00"
         },
         {
             "name": "doctrine/cache",

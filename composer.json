@@ -56,7 +56,7 @@
     },
     "require-dev": {
         "dama/doctrine-test-bundle": "^8.0",
-        "datana-gmbh/doctrine-type-testcases": "^1.2",
+        "datana-gmbh/doctrine-type-testcases": "^1.3",
         "doctrine/doctrine-fixtures-bundle": "^3.5.1",
         "ergebnis/composer-normalize": "^2.39.0",
         "ergebnis/php-cs-fixer-config": "^6.13",

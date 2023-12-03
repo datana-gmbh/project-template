@@ -21,7 +21,7 @@
         "doctrine/persistence": "^3.2",
         "easycorp/easyadmin-bundle": "^4.8.6",
         "nelmio/cors-bundle": "^2.4.0",
-        "oskarstark/symfony-http-responder": "^1.1",
+        "oskarstark/symfony-http-responder": "^1.5",
         "oskarstark/trimmed-non-empty-string": "^1.11.1",
         "psr/log": "^3.0",
         "symfony/asset": "^6.4.0",

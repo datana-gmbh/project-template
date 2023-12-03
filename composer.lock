@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4836626386a43bf7be6cb02ce22c878b",
+    "content-hash": "dddecaa57f27a9148ddb30e133679c42",
     "packages": [
         {
             "name": "api-platform/core",
@@ -1889,27 +1889,27 @@
         },
         {
             "name": "oskarstark/symfony-http-responder",
-            "version": "1.1.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OskarStark/symfony-http-responder.git",
-                "reference": "3b18003230de5bf473e99abad00644652d375695"
+                "reference": "7b26632a60955b3c01ca3c4ff5eef7d0df5a913f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OskarStark/symfony-http-responder/zipball/3b18003230de5bf473e99abad00644652d375695",
-                "reference": "3b18003230de5bf473e99abad00644652d375695",
+                "url": "https://api.github.com/repos/OskarStark/symfony-http-responder/zipball/7b26632a60955b3c01ca3c4ff5eef7d0df5a913f",
+                "reference": "7b26632a60955b3c01ca3c4ff5eef7d0df5a913f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0",
-                "symfony/http-foundation": "^4.4.4 || ^5.0.7 || ^6.0",
-                "symfony/routing": "^4.4 || ^5.0 || ^6.0",
-                "symfony/serializer": "^4.4 || ^5.0 || ^6.0",
+                "php": ">=8.2",
+                "symfony/http-foundation": "^5.4 || ^6.3 || ^7.0",
+                "symfony/routing": "^5.4 || ^6.3 || ^7.0",
+                "symfony/serializer": "^5.4 || ^6.3 || ^7.0",
                 "twig/twig": "^2.13 || ^3.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.18.3",
+                "ergebnis/php-cs-fixer-config": "^5.0",
                 "phpstan/phpstan": "^0.12.82",
                 "phpunit/phpunit": "^9.5.3",
                 "symfony/psr-http-message-bridge": "^2.1"
@@ -1947,9 +1947,9 @@
             ],
             "support": {
                 "issues": "https://github.com/OskarStark/symfony-http-responder/issues",
-                "source": "https://github.com/OskarStark/symfony-http-responder/tree/1.1.0"
+                "source": "https://github.com/OskarStark/symfony-http-responder/tree/1.5.0"
             },
-            "time": "2022-10-11T11:02:54+00:00"
+            "time": "2023-12-03T20:38:02+00:00"
         },
         {
             "name": "oskarstark/trimmed-non-empty-string",

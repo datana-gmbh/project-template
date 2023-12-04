@@ -58,26 +58,28 @@ help: ## Displays this list of targets with descriptions
 
 .PHONY: static-code-analysis
 static-code-analysis: vendor ## Runs a static code analysis with phpstan/phpstan
-	symfony php bin/console cache:warmup --env=dev
+	symfony php bin/console cache:warmup
 	mkdir -p .build/phpstan
 	symfony php vendor/bin/phpstan analyse --memory-limit=-1
 
 .PHONY: static-code-analysis-baseline
 static-code-analysis-baseline: vendor ## Generates a baseline for static code analysis with phpstan/phpstan
-	symfony php bin/console cache:warmup --env=dev
+	symfony php bin/console cache:warmup
 	mkdir -p .build/phpstan
 	symfony php vendor/bin/phpstan analyze --generate-baseline=phpstan-baseline.neon --memory-limit=-1
 
 .PHONY: refactoring
 refactoring: vendor ## Refactor the code using rector/rector
-	symfony php bin/console cache:warmup --env=dev
+	symfony php bin/console cache:warmup
 	symfony php vendor/bin/rector process --config rector.php
 
 .PHONY: tests-changed
+tests-changed: export APP_ENV=test
 tests-changed: vendor doctrine
 	symfony php vendor/bin/phpunit --configuration=phpunit.xml.dist $(shell git diff HEAD --name-only | grep Test.php | xargs )
 
 .PHONY: tests
+tests: export APP_ENV=test
 tests: vendor doctrine tests-auto-review tests-unit tests-integration tests-functional tests-acceptance ## Runs auto-review, unit, functional, integration, and acceptance tests with phpunit/phpunit (and symfony/panther)
 
 .PHONY: tests-acceptance
@@ -86,26 +88,31 @@ tests-acceptance: doctrine vendor ## Runs acceptance tests with phpunit/phpunit
 	symfony php vendor/bin/phpunit --configuration=phpunit.xml.dist --testsuite=acceptance
 
 .PHONY: tests-auto-review
+tests-auto-review: export APP_ENV=test
 tests-auto-review: vendor ## Runs auto-review tests with phpunit/phpunit
 	mkdir -p .build/phpunit
 	symfony php vendor/bin/phpunit --configuration=phpunit.xml.dist --testsuite=auto-review
 
 .PHONY: tests-functional
+tests-functional: export APP_ENV=test
 tests-functional: doctrine vendor ## Runs functional tests with phpunit/phpunit
 	mkdir -p .build/phpunit
 	symfony php vendor/bin/phpunit --configuration=phpunit.xml.dist --testsuite=functional --testdox
 
 .PHONY: tests-integration
+tests-integration: export APP_ENV=test
 tests-integration: doctrine vendor ## Runs integration tests with phpunit/phpunit
 	mkdir -p .build/phpunit
 	symfony php vendor/bin/phpunit --configuration=phpunit.xml.dist --testsuite=integration --testdox
 
 .PHONY: tests-unit
+tests-unit: export APP_ENV=test
 tests-unit: vendor ## Runs unit tests with phpunit/phpunit
 	mkdir -p .build/phpunit
 	symfony php vendor/bin/phpunit --configuration=phpunit.xml.dist --testsuite=unit
 
 .PHONY: tests-temp
+tests-temp: export APP_ENV=test
 tests-temp: doctrine vendor ## Runs unit tests with phpunit/phpunit and "@group temp"
 	mkdir -p .build/phpunit
 	symfony php vendor/bin/phpunit --configuration=phpunit.xml.dist --testdox --group=temp

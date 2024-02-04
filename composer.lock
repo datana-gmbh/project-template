@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d520aa3d09f8440fb19b1d8248642350",
+    "content-hash": "b1799dfd55830c2944fc4c8bc62b9144",
     "packages": [
         {
             "name": "api-platform/core",
@@ -10564,21 +10564,21 @@
         },
         {
             "name": "rector/rector",
-            "version": "0.19.1",
+            "version": "0.19.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "2bba0dd55ba92c23f1253d9e60d0242a896d1025"
+                "reference": "9464484f39028e930f206cbf2185a5f8a93689cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/2bba0dd55ba92c23f1253d9e60d0242a896d1025",
-                "reference": "2bba0dd55ba92c23f1253d9e60d0242a896d1025",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/9464484f39028e930f206cbf2185a5f8a93689cc",
+                "reference": "9464484f39028e930f206cbf2185a5f8a93689cc",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2|^8.0",
-                "phpstan/phpstan": "^1.10.52"
+                "phpstan/phpstan": "^1.10.56"
             },
             "conflict": {
                 "rector/rector-doctrine": "*",
@@ -10608,7 +10608,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/0.19.1"
+                "source": "https://github.com/rectorphp/rector/tree/0.19.6"
             },
             "funding": [
                 {
@@ -10616,7 +10616,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-15T18:02:43+00:00"
+            "time": "2024-02-04T12:45:08+00:00"
         },
         {
             "name": "sanmai/later",

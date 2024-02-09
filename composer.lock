@@ -1579,16 +1579,16 @@
         },
         {
             "name": "easycorp/easyadmin-bundle",
-            "version": "v4.9.0",
+            "version": "v4.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/EasyCorp/EasyAdminBundle.git",
-                "reference": "45869a0793d471c2204f731a8ee2f2752df80f62"
+                "reference": "085b66eb2104717302c88d1b0d5c886492335e3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EasyCorp/EasyAdminBundle/zipball/45869a0793d471c2204f731a8ee2f2752df80f62",
-                "reference": "45869a0793d471c2204f731a8ee2f2752df80f62",
+                "url": "https://api.github.com/repos/EasyCorp/EasyAdminBundle/zipball/085b66eb2104717302c88d1b0d5c886492335e3c",
+                "reference": "085b66eb2104717302c88d1b0d5c886492335e3c",
                 "shasum": ""
             },
             "require": {
@@ -1662,7 +1662,7 @@
             ],
             "support": {
                 "issues": "https://github.com/EasyCorp/EasyAdminBundle/issues",
-                "source": "https://github.com/EasyCorp/EasyAdminBundle/tree/v4.9.0"
+                "source": "https://github.com/EasyCorp/EasyAdminBundle/tree/v4.9.1"
             },
             "funding": [
                 {
@@ -1670,7 +1670,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-07T13:40:05+00:00"
+            "time": "2024-02-09T19:44:38+00:00"
         },
         {
             "name": "inpsyde/logzio-monolog",

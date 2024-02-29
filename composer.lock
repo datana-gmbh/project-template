@@ -1579,16 +1579,16 @@
         },
         {
             "name": "easycorp/easyadmin-bundle",
-            "version": "v4.9.2",
+            "version": "v4.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/EasyCorp/EasyAdminBundle.git",
-                "reference": "79d42864d8347e16d04005767d85012f43d78dbb"
+                "reference": "9f9129ee2ea936f09dffa87e430f9b1d72469978"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EasyCorp/EasyAdminBundle/zipball/79d42864d8347e16d04005767d85012f43d78dbb",
-                "reference": "79d42864d8347e16d04005767d85012f43d78dbb",
+                "url": "https://api.github.com/repos/EasyCorp/EasyAdminBundle/zipball/9f9129ee2ea936f09dffa87e430f9b1d72469978",
+                "reference": "9f9129ee2ea936f09dffa87e430f9b1d72469978",
                 "shasum": ""
             },
             "require": {
@@ -1662,7 +1662,7 @@
             ],
             "support": {
                 "issues": "https://github.com/EasyCorp/EasyAdminBundle/issues",
-                "source": "https://github.com/EasyCorp/EasyAdminBundle/tree/v4.9.2"
+                "source": "https://github.com/EasyCorp/EasyAdminBundle/tree/v4.9.3"
             },
             "funding": [
                 {
@@ -1670,7 +1670,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-26T19:17:03+00:00"
+            "time": "2024-02-29T19:23:49+00:00"
         },
         {
             "name": "inpsyde/logzio-monolog",
@@ -3613,16 +3613,16 @@
         },
         {
             "name": "symfony/form",
-            "version": "v7.0.3",
+            "version": "v7.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/form.git",
-                "reference": "76bfa17bf31d86bb00938725f276a84e697491b9"
+                "reference": "5cfe85c74caf924c7cec2134e169320b464ede84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/form/zipball/76bfa17bf31d86bb00938725f276a84e697491b9",
-                "reference": "76bfa17bf31d86bb00938725f276a84e697491b9",
+                "url": "https://api.github.com/repos/symfony/form/zipball/5cfe85c74caf924c7cec2134e169320b464ede84",
+                "reference": "5cfe85c74caf924c7cec2134e169320b464ede84",
                 "shasum": ""
             },
             "require": {
@@ -3689,7 +3689,7 @@
             "description": "Allows to easily create, process and reuse HTML forms",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/form/tree/v7.0.3"
+                "source": "https://github.com/symfony/form/tree/v7.0.4"
             },
             "funding": [
                 {
@@ -3705,7 +3705,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-23T15:02:46+00:00"
+            "time": "2024-02-12T11:15:03+00:00"
         },
         {
             "name": "symfony/framework-bundle",
@@ -5755,16 +5755,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v7.0.3",
+            "version": "v7.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "7285f25c7dcc74d9ec1232473114274604e50f00"
+                "reference": "5b75e872f7d135d7abb4613809fadc8d9f3d30a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/7285f25c7dcc74d9ec1232473114274604e50f00",
-                "reference": "7285f25c7dcc74d9ec1232473114274604e50f00",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/5b75e872f7d135d7abb4613809fadc8d9f3d30a0",
+                "reference": "5b75e872f7d135d7abb4613809fadc8d9f3d30a0",
                 "shasum": ""
             },
             "require": {
@@ -5829,7 +5829,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v7.0.3"
+                "source": "https://github.com/symfony/translation/tree/v7.0.4"
             },
             "funding": [
                 {
@@ -5845,7 +5845,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-29T15:41:16+00:00"
+            "time": "2024-02-22T20:27:20+00:00"
         },
         {
             "name": "symfony/translation-contracts",

@@ -42,7 +42,7 @@ jobs:
             -   run: "go install github.com/google/yamlfmt/cmd/yamlfmt@v0.7.1 && ~/go/bin/yamlfmt"
 
             -   name: "Commit formatted yaml validation files"
-                uses: "stefanzweifel/git-auto-commit-action@v5.0.0"
+                uses: "stefanzweifel/git-auto-commit-action@v5.0.1"
                 with:
                     branch: "${{ github.head_ref }}"
                     commit_author: "${{ env.DATANA_BOT_NAME }} <${{ env.DATANA_BOT_EMAIL }}>"

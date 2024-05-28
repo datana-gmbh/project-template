@@ -13091,16 +13091,16 @@
         },
         {
             "name": "vincentlanglet/twig-cs-fixer",
-            "version": "2.10.0",
+            "version": "2.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/VincentLanglet/Twig-CS-Fixer.git",
-                "reference": "ca9bdc216b0716b3faf50837a678a7eedc96abb8"
+                "reference": "30fef7f8dc01bf1eaf948400a086ee2becae0f15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VincentLanglet/Twig-CS-Fixer/zipball/ca9bdc216b0716b3faf50837a678a7eedc96abb8",
-                "reference": "ca9bdc216b0716b3faf50837a678a7eedc96abb8",
+                "url": "https://api.github.com/repos/VincentLanglet/Twig-CS-Fixer/zipball/30fef7f8dc01bf1eaf948400a086ee2becae0f15",
+                "reference": "30fef7f8dc01bf1eaf948400a086ee2becae0f15",
                 "shasum": ""
             },
             "require": {
@@ -13159,7 +13159,7 @@
             "homepage": "https://github.com/VincentLanglet/Twig-CS-Fixer",
             "support": {
                 "issues": "https://github.com/VincentLanglet/Twig-CS-Fixer/issues",
-                "source": "https://github.com/VincentLanglet/Twig-CS-Fixer/tree/2.10.0"
+                "source": "https://github.com/VincentLanglet/Twig-CS-Fixer/tree/2.10.1"
             },
             "funding": [
                 {
@@ -13167,7 +13167,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-05-15T11:53:08+00:00"
+            "time": "2024-05-28T14:51:00+00:00"
         },
         {
             "name": "webmozart/glob",

@@ -13424,16 +13424,16 @@
         },
         {
             "name": "zenstruck/console-test",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zenstruck/console-test.git",
-                "reference": "bc231378dd6cd46713e6ba18b7f0b98aab3d0bc2"
+                "reference": "6117587e2cc9943d6fc32f705cf2d232e8a579a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zenstruck/console-test/zipball/bc231378dd6cd46713e6ba18b7f0b98aab3d0bc2",
-                "reference": "bc231378dd6cd46713e6ba18b7f0b98aab3d0bc2",
+                "url": "https://api.github.com/repos/zenstruck/console-test/zipball/6117587e2cc9943d6fc32f705cf2d232e8a579a0",
+                "reference": "6117587e2cc9943d6fc32f705cf2d232e8a579a0",
                 "shasum": ""
             },
             "require": {
@@ -13474,7 +13474,7 @@
             ],
             "support": {
                 "issues": "https://github.com/zenstruck/console-test/issues",
-                "source": "https://github.com/zenstruck/console-test/tree/v1.5.0"
+                "source": "https://github.com/zenstruck/console-test/tree/v1.6.0"
             },
             "funding": [
                 {
@@ -13482,7 +13482,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-24T15:03:47+00:00"
+            "time": "2024-07-24T14:03:46+00:00"
         },
         {
             "name": "zenstruck/foundry",

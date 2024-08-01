@@ -1981,20 +1981,20 @@
         },
         {
             "name": "oskarstark/trimmed-non-empty-string",
-            "version": "1.1.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OskarStark/trimmed-non-empty-string.git",
-                "reference": "386739c4cbcdf87122e9b34bbab8b7f3ab1bed8c"
+                "reference": "69be062312a9b0a0c05a161a46b72b6f0b69c87f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OskarStark/trimmed-non-empty-string/zipball/386739c4cbcdf87122e9b34bbab8b7f3ab1bed8c",
-                "reference": "386739c4cbcdf87122e9b34bbab8b7f3ab1bed8c",
+                "url": "https://api.github.com/repos/OskarStark/trimmed-non-empty-string/zipball/69be062312a9b0a0c05a161a46b72b6f0b69c87f",
+                "reference": "69be062312a9b0a0c05a161a46b72b6f0b69c87f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.4",
+                "php": ">=8.0",
                 "symfony/string": "^5.0 || ^6.0 || ^7.0",
                 "webmozart/assert": "^1.0"
             },
@@ -2026,9 +2026,9 @@
             ],
             "support": {
                 "issues": "https://github.com/OskarStark/trimmed-non-empty-string/issues",
-                "source": "https://github.com/OskarStark/trimmed-non-empty-string/tree/1.1.1"
+                "source": "https://github.com/OskarStark/trimmed-non-empty-string/tree/1.2.0"
             },
-            "time": "2023-12-01T11:02:53+00:00"
+            "time": "2024-08-01T09:13:38+00:00"
         },
         {
             "name": "psr/cache",

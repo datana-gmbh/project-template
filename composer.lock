@@ -12624,16 +12624,16 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v7.1.0",
+            "version": "v7.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "fc26d2e4472df45340e8b8fb43cb708d468eaa84"
+                "reference": "b92af238457a7cdd2738f941cd525d76313e8283"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/fc26d2e4472df45340e8b8fb43cb708d468eaa84",
-                "reference": "fc26d2e4472df45340e8b8fb43cb708d468eaa84",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/b92af238457a7cdd2738f941cd525d76313e8283",
+                "reference": "b92af238457a7cdd2738f941cd525d76313e8283",
                 "shasum": ""
             },
             "require": {
@@ -12671,7 +12671,7 @@
             "description": "Eases DOM navigation for HTML and XML documents",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dom-crawler/tree/v7.1.0"
+                "source": "https://github.com/symfony/dom-crawler/tree/v7.1.5"
             },
             "funding": [
                 {
@@ -12687,7 +12687,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-18T09:32:20+00:00"
+            "time": "2024-09-15T06:48:17+00:00"
         },
         {
             "name": "symfony/maker-bundle",
@@ -13303,16 +13303,16 @@
         },
         {
             "name": "zenstruck/browser",
-            "version": "v1.8.1",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zenstruck/browser.git",
-                "reference": "c3a7328df5c2e3750f3aaef3be4805c2021dd6a7"
+                "reference": "9603f3dab8377ae3b341e653a8e61e15734b6336"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zenstruck/browser/zipball/c3a7328df5c2e3750f3aaef3be4805c2021dd6a7",
-                "reference": "c3a7328df5c2e3750f3aaef3be4805c2021dd6a7",
+                "url": "https://api.github.com/repos/zenstruck/browser/zipball/9603f3dab8377ae3b341e653a8e61e15734b6336",
+                "reference": "9603f3dab8377ae3b341e653a8e61e15734b6336",
                 "shasum": ""
             },
             "require": {
@@ -13327,15 +13327,14 @@
             },
             "require-dev": {
                 "dbrekelmans/bdi": "^1.0",
-                "justinrainbow/json-schema": "^5.2",
+                "justinrainbow/json-schema": "^5.3",
                 "mtdowling/jmespath.php": "^2.6",
                 "phpstan/phpstan": "^1.4",
-                "phpunit/phpunit": "^9.5|^10.4",
+                "phpunit/phpunit": "^9.6.21|^10.4",
                 "symfony/mime": "^5.4|^6.0|^7.0",
                 "symfony/panther": "^1.1|^2.0.1",
                 "symfony/phpunit-bridge": "^6.0|^7.0",
-                "symfony/security-bundle": "^5.4|^6.0|^7.0",
-                "zenstruck/foundry": "^1.30"
+                "symfony/security-bundle": "^5.4|^6.0|^7.0"
             },
             "suggest": {
                 "justinrainbow/json-schema": "Json schema validator. Needed to use Json::assertMatchesSchema().",
@@ -13366,7 +13365,7 @@
             ],
             "support": {
                 "issues": "https://github.com/zenstruck/browser/issues",
-                "source": "https://github.com/zenstruck/browser/tree/v1.8.1"
+                "source": "https://github.com/zenstruck/browser/tree/v1.9.0"
             },
             "funding": [
                 {
@@ -13374,7 +13373,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-21T15:32:44+00:00"
+            "time": "2024-10-20T23:04:59+00:00"
         },
         {
             "name": "zenstruck/callback",
